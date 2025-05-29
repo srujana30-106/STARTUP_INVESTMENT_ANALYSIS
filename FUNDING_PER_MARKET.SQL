@@ -1,3 +1,4 @@
+--percentage of total funding for each market
 WITH total AS (
     SELECT SUM(funding_total_usd::BIGINT) AS total_funding
     FROM investments

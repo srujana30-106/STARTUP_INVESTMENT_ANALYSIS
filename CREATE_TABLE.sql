@@ -1,3 +1,4 @@
+--create table in database
 CREATE TABLE INVESTMENTS (
     permalink VARCHAR(255) PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
